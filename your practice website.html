@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spider-Man Character Profile</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eef1f5;
+        color: #20232a;
+        line-height: 1.6;
+      }
+      header {
+        background-color: #b5121b;
+        color: white;
+        text-align: center;
+        padding: 35px 20px;
+      }
+      .profile-picture {
+        width: 145px;
+        height: 145px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid white;
+      }
+      header h1 {
+        margin: 12px 0 0;
+        font-size: 2.2rem;
+      }
+      header p {
+        margin: 4px 0 0;
+      }
+      main {
+        width: min(900px, 92%);
+        margin: 28px auto;
+      }
+      section {
+        background: white;
+        padding: 22px;
+        margin-bottom: 22px;
+        border-radius: 12px;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+      }
+      h2 {
+        color: #b5121b;
+        border-bottom: 2px solid #e7b7ba;
+        padding-bottom: 7px;
+        margin-top: 0;
+      }
+      .about-image {
+        display: block;
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-top: 15px;
+      }
+      .caption {
+        font-size: 0.9rem;
+        color: #60646c;
+        margin-top: 6px;
+      }
+      ul {
+        padding-left: 24px;
+      }
+      li {
+        margin-bottom: 6px;
+      }
+      a {
+        color: #b5121b;
+      }
+      footer {
+        text-align: center;
+        background: #20232a;
+        color: white;
+        padding: 22px;
+      }
+      footer a {
+        color: #ffd8da;
+        margin: 0 8px;
+      }
+      img {
+        max-width: 100%;
+      }
+      .character-nav a {
+        color: #fff;
+        font-weight: bold;
+        margin: 0 7px;
+      }
+      @media (max-width: 600px) {
+        header {
+          padding: 25px 14px;
+        }
+        main {
+          width: 94%;
+          margin: 18px auto;
+        }
+        header h1 {
+          font-size: 1.8rem;
+        }
+        section {
+          padding: 17px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        class="profile-picture"
+        src="https://hips.hearstapps.com/hmg-prod/images/msm2-reveal-attack-4k-legal-65284680c18ba.jpg?crop=0.490xw:0.872xh;0.115xw,0&resize=1200:*"
+        alt="Comic-inspired red and blue superhero artwork"
+      />
+      <h1>Spider-Man</h1>
+      <p>Friendly Neighborhood Superhero</p>
+      <p class="character-nav"><a href="your%20practice%20website.html">Spider-Man</a> · <a href="miles-morales.html">Miles Morales</a></p>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Spider-Man is the superhero identity of Peter Parker. He is known for
+          helping people, protecting his neighborhood, and trying to do the
+          right thing even when life gets complicated. His story shows that
+          being a hero is about more than having powers.
+        </p>
+        <img
+          class="about-image"
+          src="https://media.vanityfair.com/photos/5d5dacc363a3160008e3a190/master/pass/spiderman-marvel.jpg"
+          alt="Colorful city lights at night"
+        />
+        <p class="caption">
+          The city is where Spider-Man looks out for his community.
+        </p>
+      </section>
+
+      <section id="characteristics">
+        <h2>Characteristics</h2>
+        <ul>
+          <li>Brave when others need help</li>
+          <li>Creative and quick-thinking</li>
+          <li>Funny, even in stressful moments</li>
+          <li>Loyal to friends and family</li>
+          <li>Responsible for how he uses his abilities</li>
+        </ul>
+      </section>
+
+      <section id="friends">
+        <h2>Friends</h2>
+        <ul>
+          <li>Mary Jane Watson</li>
+          <li>Gwen Stacy</li>
+          <li>Ned Leeds</li>
+          <li>Aunt May</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Thanks for visiting my character profile!</p>
+      <p>
+        <a href="#about">About</a>
+        <a href="#characteristics">Characteristics</a>
+        <a href="#friends">Friends</a>
+      </p>
+    </footer>
+  </body>
+</html>
